@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&family=Roboto+Mono:ital,wght@1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+   min-height: 8vh;
+    background:#363945;
+}
+.allcenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    padding: 0 25px;
+    height: 3vh;
+}
+nav ul{
+    height: 7vh;
+    display: flex;
+   justify-content:start ;
+   align-items: center;
+    
+}
+nav ul li{
+     list-style: none;
+    padding: 0 23px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+nav ul li a:hover{
+    
+    color: rgb(38, 88, 98);
+    font-weight: bolder;
+}
+.search input{
+width: 29vw;
+height: 4vh;
+border: blue;
+border-radius: 3px;
+
+}
+.search{
+    margin: 0 0 0 3vw;
+    width: 33.5vw;
+    height: 4vh;
+    display: flex;
+    justify-content: space-between;
+}
+.search ::placeholder{
+   text-align: right;
+   margin: 0 2vw 0 0;
+   display: flex;
+   align-items: center;
+}
+.btn button{
+    padding:.8vh ;
+    background-color: #2874f0;
+    border: rgb(202, 202, 228) solid ;
+    border-radius:4px;
+}
+.btn button:hover{
+    background-color: rgb(47, 34, 233);
+}
+.container{
+    min-height:calc(100vh - 0vh - 10vh);
+    background-color:#f1f3f6;
+}
+.slider img{
+    margin: 1vh 0 0 .6vw;
+    height: 29.65vw;
+    width: 97.8vw;
+}
+}
+.slider{
+    overflow: hidden;
+}
+.heading{
+    padding: 1vh 1vh 0 4vh;
+    font-weight: 525;
+    font-size: large;
+}
+
+.card{
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    width: 97.8vw;
+    margin: 1vh 1vh 2vh 1vh;
+    box-shadow: 1px 1px 1px 1px rgb(239, 236, 236);
+}
+.cardelements{
+display: flex;
+justify-content: space-evenly;
+overflow: hidden;
+flex-wrap: wrap;
+}
+.carditem img{
+    margin: 1vh 0 0 2vh;
+}
+.lines{
+    
+    display: flex;
+    flex-direction: column;
+    margin: 1vh 0 0 4.5vh;
+    padding: 1vmin;
+    
+}
+footer{
+    background:#363945;
+    height: 30vh;
+    color: aliceblue;
+    font-family: 'Play', sans-serif;
+font-family: 'Roboto Mono', monospace;
+}
